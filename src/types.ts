@@ -9,7 +9,7 @@ export interface Profile {
 export interface UserType {
   id: number;
   username: String;
-  email: String;
+  email: string;
   password: String;
   posts: PostType[];
   profile: Profile;
