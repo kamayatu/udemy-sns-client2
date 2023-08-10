@@ -1,16 +1,16 @@
 export interface Profile {
   id: number;
-  bio: String;
-  profileImageUrl: String;
+  bio: string;
+  profileImageUrl: string;
   userId: number;
   user: UserType;
 }
 
 export interface UserType {
   id: number;
-  username: String;
+  username: string;
   email: string;
-  password: String;
+  password: string;
   posts: PostType[];
   profile: Profile;
 }
